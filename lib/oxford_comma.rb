@@ -8,7 +8,7 @@ def oxford_comma(array)
     i = 0;
     while i < array.length - 1
       output += array[i] + ", " 
-      i++
+      i += 1
     end
     output += "and #{array.last}"
     return output
