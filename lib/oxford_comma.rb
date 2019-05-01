@@ -9,7 +9,6 @@ def oxford_comma(array)
     while i < array.length - 1
       output += array[i] + ", " 
       i++
-    end
     output += array[array.length -1]
     return output
   end
