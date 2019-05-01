@@ -10,6 +10,6 @@ def oxford_comma(array)
       output += array[i] + ", " 
     end
     output += array[array.length -1]
-    puts output
+    return output
   end
 end
