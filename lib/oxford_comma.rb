@@ -6,6 +6,10 @@ def oxford_comma(array)
     return "#{array[0]} and #{array[1]}"
   else 
     i = 0;
-    while count < array.length - 1
-      output += array[]
+    while i < array.length - 1
+      output += array[i] + ", " 
+    end
+    output += array[array.length -1]
+    puts output
+  end
 end
